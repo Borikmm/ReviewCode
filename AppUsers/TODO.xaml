@@ -1,0 +1,60 @@
+﻿<Window x:Class="AppUsers.TODO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppUsers"
+        mc:Ignorable="d"
+        Title="TODO" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="80px"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name group" Width="100" TextAlignment="Right"></TextBlock>
+                <ComboBox Width="225" x:Name="ComboGroups" SelectionChanged="ComboType_SelectionChanged"></ComboBox>
+            </StackPanel>
+        </WrapPanel>
+
+
+
+        <DataGrid x:Name="DGridCores" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="Core_id" Binding="{Binding Core_id}" Width="20"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="NumberFind" Binding="{Binding NumberFind}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="DGridPlaces" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="PlaceId" Binding="{Binding PlaceId}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="BandWidth" Binding="{Binding BandWidth}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid x:Name="DGridCore_place" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="PlaceId" Binding="{Binding PlaceId}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="CoreId" Binding="{Binding CoreId}" Width="200"></DataGridTextColumn>
+                <DataGridTextColumn Header="Storage" Binding="{Binding Storage}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Close" Binding="{Binding Close}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Open" Binding="{Binding Open}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="TypeDev" Binding="{Binding TypeDev}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="OurselfPrice" Binding="{Binding OurselfPrice}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Add_workflow" x:Name="ChangeRootBtn" Click="Add_workflow" Grid.Row="2"></Button>
+
+    </Grid>
+</Window>

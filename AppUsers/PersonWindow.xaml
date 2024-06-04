@@ -1,0 +1,36 @@
+﻿<Window x:Class="AppUsers.PersonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppUsers"
+        mc:Ignorable="d"
+        Title="User_for_user" Height="450" Width="800">
+
+
+
+    <Grid Background="#FF616161">
+        <Border MinWidth="400" Margin="15" Background="white" VerticalAlignment="Top"  MaxWidth="800" Height="400" CornerRadius="10">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"></DropShadowEffect>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock x:Name="CurrentLoginTextBox" TextAlignment="Center" Text="Предприятие" FontSize="30" FontWeight="Bold" Margin="0 0 0 0" />
+
+                <Grid>
+
+                    <Button Content="Пункты" Click="WorkflowBtn" VerticalAlignment="Top" Margin="-15,70,385,0" Width="400" Background="#FF83C736"></Button>
+                    <Button Content="Ископаемые" Click="WorkflowBtn"  Margin="385,70,-15,43" Width="400" Background="#FF83C736"></Button>
+                    <Button Content="Месторождения" Click="WorkflowBtn" VerticalAlignment="Top" Margin="185,118,185,0" Width="400" Background="#FF83C736"></Button>
+
+
+                    <StackPanel x:Name="Admin" Visibility="Hidden" Margin="0 70 0 0"/>
+
+
+
+                </Grid>
+                <Button Content="Exit" Width="200px" Margin="0 100 0 0" Background="Red" x:Name="ExitBtn" Click="ExitBtn_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
