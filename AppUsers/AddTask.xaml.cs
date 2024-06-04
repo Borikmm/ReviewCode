@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.WebControls;
@@ -47,70 +49,64 @@ namespace AppUsers
 
         private void show_cores()
         {
-
+            one.Text = "Номер руды";
+            two.Text = "Название роли";
+            three.Text = "Пьеса";
         }
 
         private void show_places()
         {
-
+            one.Text = "Код роли";
+            two.Text = "Табельный номер";
+            three.Text = "Дата назначения";
+            forr.Text = "Дата снятия";
         }
 
         private void show_cores_places()
         {
-
+            one.Text = "ФИО";
+            two.Text = "ПОЛ";
+            three.Text = "Звание";
         }
 
         private void BtnSave_Click(object sender, RoutedEventArgs e)
         {
             var db = new ApplicationContext();
 
-
-            if (Groups.Text is null || nameSubject.Text is null || nameTeacher.Text is null || Hours.Text is null)
-            {
-                MessageBox.Show("Какие то поля пустые(");
-                return;
-            }
-
-            int result;
-            
-            if (!int.TryParse(Hours.Text, out result))
-            {
-                MessageBox.Show("Часы должны быть числом");
-                return;
-            }
-
-
-/*            switch (_table_now)
+            MessageBox.Show(_table_now);
+            switch (_table_now)
             {
                 case "Cores":
-                    Core user = new Core(Groups.Text, nameSubject.Text, nameTeacher.Text, Hours.Text);
+                    Core user = new Core(two_input.Text, Convert.ToInt16(one_input.Text), three_input.Text);
                     db.Cores.Add(user);
                     db.SaveChanges();
 
-                    TODO windowAuth = new TODO(_table_now);
+                    PersonWindow windowAuth = new PersonWindow(PersonWindow._user_now);
                     windowAuth.Show();
                     this.Close();
-                    return;
+                    break;
                 case "Places":
-                    Place user1 = new Place(Groups.Text, nameSubject.Text, nameTeacher.Text, Hours.Text);
+                    MessageBox.Show("wf");
+                    Place user1 = new Place(one_input.Text, two_input.Text, three_input.Text);
                     db.Places.Add(user1);
                     db.SaveChanges();
 
-                    TODO windowAuth1 = new TODO(_table_now);
-                    windowAuth1.Show();
+                    PersonWindow windowAuth2 = new PersonWindow(PersonWindow._user_now);
+                    windowAuth2.Show();
                     this.Close();
-                    return;
+                    break;
                 case "Cores_places":
-                    Core_place user2 = new Core_place(Groups.Text, nameSubject.Text, nameTeacher.Text, Hours.Text);
+                    // string finish, string start, int roleid, int tableid, int number
+                    Core_place user2 = new Core_place(for_input.Text, three_input.Text, Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), 1);
                     db.Cores_places.Add(user2);
                     db.SaveChanges();
 
-                    TODO windowAuth2 = new TODO(_table_now);
-                    windowAuth2.Show();
+                    PersonWindow windowAuth3 = new PersonWindow(PersonWindow._user_now);
+                    windowAuth3.Show();
                     this.Close();
-                    return;
+                    break;
             }
-*/
+
         }
     }
 }

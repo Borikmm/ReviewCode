@@ -15,7 +15,7 @@ namespace AppUsers
         private string numberfind;
         private string price;
 
-        public int Cores_id
+        public int CoreId
         {
             get { return core_id; }
             set { core_id = value; }

@@ -24,8 +24,7 @@ namespace AppUsers
     public partial class PersonWindow : Window
     {
         private ApplicationContext db;
-        private User _user_now;
-
+        public static User _user_now;
 
         public PersonWindow(User user_now)
         {
