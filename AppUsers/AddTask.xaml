@@ -13,6 +13,8 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"></ColumnDefinition>
@@ -22,12 +24,16 @@
         <TextBlock Grid.Column="0" Grid.Row="1" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="two"></TextBlock>
         <TextBlock Grid.Column="0" Grid.Row="2" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="three"></TextBlock>
         <TextBlock Grid.Column="0" Grid.Row="3" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="forr"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="4" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="fife"></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="5" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" x:Name="six"></TextBlock>
         <TextBox x:Name="one_input" Grid.Column="1" Grid.Row="0" Height="50" Margin="5"></TextBox>
         <TextBox x:Name="two_input" Grid.Column="1" Grid.Row="1" Height="50" Margin="5"></TextBox>
         <TextBox x:Name="three_input" Grid.Column="1" Grid.Row="2" Height="50"  Margin="5"></TextBox>
         <TextBox x:Name="for_input" Grid.Column="1" Grid.Row="3" Height="50" Margin="5"></TextBox>
+        <TextBox x:Name="fife_input" Grid.Column="1" Grid.Row="4" Height="50" Margin="5"></TextBox>
+        <TextBox x:Name="six_input" Grid.Column="1" Grid.Row="5" Height="50" Margin="5"></TextBox>
 
-        <Button x:Name="BtnSave" Grid.ColumnSpan="2" Grid.Row="4" Height="35" Width="250" FontSize="25" Foreground="Green" Background="Snow" Click="BtnSave_Click">Save</Button>
+        <Button x:Name="BtnSave" Grid.ColumnSpan="2" Grid.Row="6" Height="35" Width="250" FontSize="25" Foreground="Green" Background="Snow" Click="BtnSave_Click">Save</Button>
 
     </Grid>
 </Window>

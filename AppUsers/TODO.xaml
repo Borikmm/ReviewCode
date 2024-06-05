@@ -22,26 +22,43 @@
 
 
 
-        <DataGrid x:Name="DGridCores" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+        <DataGrid DataGridCell.Selected="DataGridCell_Selected" DataGridCell.Unselected="DataGridCell_Selected2"  x:Name="DGridCores" AutoGenerateColumns="False" Grid.Row="1" Visibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
-                <DataGridTextColumn Header="Core_id" Binding="{Binding CoreId}" Width="20"></DataGridTextColumn>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="50"></DataGridTextColumn>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="NumberFind" Binding="{Binding NumberFind}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="100px" Click="DeleteBtn">Delete</Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
+
         </DataGrid>
 
-        <DataGrid x:Name="DGridPlaces" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+        <DataGrid DataGridCell.Selected="DataGridCell_Selected" DataGridCell.Unselected="DataGridCell_Selected2" x:Name="DGridPlaces" AutoGenerateColumns="False"  Grid.Row="1" Visibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
-                <DataGridTextColumn Header="PlaceId" Binding="{Binding PlaceId}" Width="200"></DataGridTextColumn>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="BandWidth" Binding="{Binding BandWidth}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="100px" Click="DeleteBtn">Delete</Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
 
-        <DataGrid x:Name="DGridCore_place" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1" Visibility="Hidden">
+        <DataGrid DataGridCell.Selected="DataGridCell_Selected" DataGridCell.Unselected="DataGridCell_Selected2" x:Name="DGridCore_place" AutoGenerateColumns="False"  Grid.Row="1" Visibility="Hidden">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="id" Binding="{Binding id}" Width="50"></DataGridTextColumn>
                 <DataGridTextColumn Header="PlaceId" Binding="{Binding PlaceId}" Width="200"></DataGridTextColumn>
@@ -49,8 +66,16 @@
                 <DataGridTextColumn Header="Storage" Binding="{Binding Storage}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Close" Binding="{Binding Close}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Open" Binding="{Binding Open}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="TypeDev" Binding="{Binding TypeDev}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="OurselfPrice" Binding="{Binding OurselfPrice}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Width="100px" Click="DeleteBtn">Delete</Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
 

@@ -62,16 +62,19 @@ namespace AppUsers
         private void show_cores()
         {
             DGridCores.Visibility = Visibility.Visible;
+            DGridCores.ItemsSource = db.Cores.ToList();
         }
 
         private void show_places()
         {
             DGridPlaces.Visibility = Visibility.Visible;
+            DGridPlaces.ItemsSource = db.Places.ToList();
         }
 
         private void show_cores_places()
         {
             DGridCore_place.Visibility = Visibility.Visible;
+            DGridCore_place.ItemsSource = db.Cores_places.ToList();
         }
 
 
@@ -136,6 +139,11 @@ namespace AppUsers
             this.Close();
         }
 
+
+        private void FindItem(string name)
+        {
+
+        }
     
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
@@ -159,6 +167,108 @@ namespace AppUsers
             AddTask windowAuth = new AddTask(_table_now);
             windowAuth.Show();
             this.Close();
+        }
+
+        private void DeleteBtn(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                switch (_table_now)
+                {
+                    case "Cores":
+
+
+                        Core need = DGridCores.SelectedItem as Core;
+                        db = new ApplicationContext();
+
+                        var ord = db.Cores.Where(c => c.id == need.id).FirstOrDefault();
+                        db.Cores.Remove(ord);
+                        db.SaveChanges();
+
+
+                        DGridCores.ItemsSource = db.Cores.ToList();
+                        return;
+                    case "Places":
+                        Place need1 = DGridPlaces.SelectedItem as Place;
+                        db = new ApplicationContext();
+
+                        var ord1 = db.Places.Where(c => c.id == need1.id).FirstOrDefault();
+                        db.Places.Remove(ord1);
+                        db.SaveChanges();
+
+
+                        DGridPlaces.ItemsSource = db.Places.ToList();
+                        return;
+
+                    case "Cores_places":
+                        Core_place need2 = DGridCores.SelectedItem as Core_place;
+                        db = new ApplicationContext();
+
+                        var ord2 = db.Cores_places.Where(c => c.id == need2.id).FirstOrDefault();
+                        db.Cores_places.Remove(ord2);
+                        db.SaveChanges();
+
+                        DGridCore_place.ItemsSource = db.Cores_places.ToList();
+                        return;
+                }
+            }
+            catch { }
+        }
+
+        private void DataGridCell_Selected(object sender, RoutedEventArgs e)
+        {
+            if (e.OriginalSource.GetType() == typeof(DataGridCell))
+            {
+                // Starts the Edit on the row;
+                System.Windows.Controls.DataGrid grd = (System.Windows.Controls.DataGrid)sender;
+                grd.BeginEdit(e);
+            }
+        }
+
+        private void DataGridCell_Selected2(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                switch (_table_now)
+                {
+                    case "Cores":
+
+
+                        Core need = DGridCores.SelectedItem as Core;
+                        db = new ApplicationContext();
+
+                        var ord = db.Cores.Where(c => c.id == need.id).FirstOrDefault();
+                        ord = need;
+                        db.SaveChanges();
+
+
+                        DGridCores.ItemsSource = db.Cores.ToList();
+                        return;
+                    case "Places":
+                        Place need1 = DGridPlaces.SelectedItem as Place;
+                        db = new ApplicationContext();
+
+                        var ord1 = db.Places.Where(c => c.id == need1.id).FirstOrDefault();
+                        ord1 = need1;
+                        db.SaveChanges();
+
+
+                        DGridPlaces.ItemsSource = db.Places.ToList();
+                        return;
+
+                    case "Cores_places":
+                        Core_place need2 = DGridCores.SelectedItem as Core_place;
+                        db = new ApplicationContext();
+
+                        var ord2 = db.Cores_places.Where(c => c.id == need2.id).FirstOrDefault();
+                        ord2 = need2;
+                        db.SaveChanges();
+
+                        DGridCore_place.ItemsSource = db.Cores_places.ToList();
+                        return;
+                }
+            }
+            catch { }
         }
     }
 }

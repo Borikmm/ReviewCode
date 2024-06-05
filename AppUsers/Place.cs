@@ -9,15 +9,8 @@ namespace AppUsers
     public class Place
     {
         public int id { get; set; }
-        private int placeid;
         private string name;
         private string bandwidth;
-
-        public int PlaceId
-        {
-            get { return placeid; }
-            set { placeid = value; }
-        }
 
         public string Name
         {
@@ -33,11 +26,10 @@ namespace AppUsers
 
         public Place() { }
 
-        public Place(string name, string role, string bandwidth, int placeid)
+        public Place(string name, string bandwidth)
         {
             this.name = name;
             this.bandwidth = bandwidth;
-            this.placeid = placeid;
         }
     }
 }

@@ -49,24 +49,25 @@ namespace AppUsers
 
         private void show_cores()
         {
-            one.Text = "Номер руды";
-            two.Text = "Название роли";
-            three.Text = "Пьеса";
+            one.Text = "Название руды";
+            two.Text = "Цена";
+            three.Text = "Единица измерения";
         }
 
         private void show_places()
         {
-            one.Text = "Код роли";
-            two.Text = "Табельный номер";
-            three.Text = "Дата назначения";
-            forr.Text = "Дата снятия";
+            one.Text = "Название пункта";
+            two.Text = "Пропускная способность";
         }
 
         private void show_cores_places()
         {
-            one.Text = "ФИО";
-            two.Text = "ПОЛ";
-            three.Text = "Звание";
+            one.Text = "Код пункта";
+            two.Text = "Код ископаемого";
+            three.Text = "Дата открытия";
+            forr.Text = "Дата закрытия";
+            fife.Text = "Запасы";
+            six.Text = "Себестоимость";
         }
 
         private void BtnSave_Click(object sender, RoutedEventArgs e)
@@ -77,7 +78,7 @@ namespace AppUsers
             switch (_table_now)
             {
                 case "Cores":
-                    Core user = new Core(two_input.Text, Convert.ToInt16(one_input.Text), three_input.Text);
+                    Core user = new Core(one_input.Text, two_input.Text, three_input.Text);
                     db.Cores.Add(user);
                     db.SaveChanges();
 
@@ -87,7 +88,7 @@ namespace AppUsers
                     break;
                 case "Places":
                     MessageBox.Show("wf");
-                    Place user1 = new Place(one_input.Text, two_input.Text, three_input.Text);
+                    Place user1 = new Place(one_input.Text, two_input.Text);
                     db.Places.Add(user1);
                     db.SaveChanges();
 
@@ -97,7 +98,7 @@ namespace AppUsers
                     break;
                 case "Cores_places":
                     // string finish, string start, int roleid, int tableid, int number
-                    Core_place user2 = new Core_place(for_input.Text, three_input.Text, Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), 1);
+                    Core_place user2 = new Core_place(Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), Convert.ToInt16(fife_input.Text), Convert.ToInt16(six_input.Text), three_input.Text, for_input.Text);
                     db.Cores_places.Add(user2);
                     db.SaveChanges();
 

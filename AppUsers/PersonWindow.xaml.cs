@@ -43,20 +43,6 @@ namespace AppUsers
             {
 
             }
-
-
-            //
-            /*add_to_G("PIP21-8p");
-            add_to_G("ISIP21-1p");
-            add_to_G("RIP23-1p");
-            add_to_G("DIP27-1p");
-            add_to_G("NIP40-1p");
-            add_to_T("Teacher1");
-            add_to_T("Teacher2");
-            add_to_S("History");
-            add_to_S("Math");*/
-            //
-
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)

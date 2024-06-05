@@ -12,16 +12,10 @@ namespace AppUsers
         public int id { get; set; }
         private int placeid;
         private int coreid;
-        private string typedev;
         private string open;
         private string close;
         private int storage;
         private int ourselfprice;
-        public string TypeDev
-        {
-            get { return typedev; }
-            set { typedev = value; }
-        }
 
         public string Open
         {
@@ -62,11 +56,10 @@ namespace AppUsers
 
         public Core_place() { }
 
-        public Core_place(int core_id, int place_id, int stor, int price, string type, string open, string close)
+        public Core_place(int core_id, int place_id, int stor, int price, string open, string close)
         {
             this.coreid = core_id;
             this.placeid = place_id;
-            this.typedev = type;
             this.open = open;
             this.close = close;
             this.ourselfprice = price;

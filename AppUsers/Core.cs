@@ -10,16 +10,9 @@ namespace AppUsers
     {
 
         public int id { get; set; }
-        private int core_id;
         private string name;
         private string numberfind;
         private string price;
-
-        public int CoreId
-        {
-            get { return core_id; }
-            set { core_id = value; }
-        }
 
         public string Price
         {
@@ -42,9 +35,8 @@ namespace AppUsers
 
         public Core() { }
 
-        public Core(int core_id, string name, string price, string number_find)
+        public Core(string name, string price, string number_find)
         {
-            this.core_id = core_id;
             this.name = name;
             this.price = price;
             this.numberfind = number_find;
