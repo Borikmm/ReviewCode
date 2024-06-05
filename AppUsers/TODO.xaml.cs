@@ -222,6 +222,7 @@ namespace AppUsers
                 // Starts the Edit on the row;
                 System.Windows.Controls.DataGrid grd = (System.Windows.Controls.DataGrid)sender;
                 grd.BeginEdit(e);
+                grd.CancelEdit();
             }
         }
 
@@ -242,7 +243,7 @@ namespace AppUsers
                         db.SaveChanges();
 
 
-                        DGridCores.ItemsSource = db.Cores.ToList();
+
                         return;
                     case "Places":
                         Place need1 = DGridPlaces.SelectedItem as Place;
@@ -253,7 +254,6 @@ namespace AppUsers
                         db.SaveChanges();
 
 
-                        DGridPlaces.ItemsSource = db.Places.ToList();
                         return;
 
                     case "Cores_places":
@@ -264,7 +264,6 @@ namespace AppUsers
                         ord2 = need2;
                         db.SaveChanges();
 
-                        DGridCore_place.ItemsSource = db.Cores_places.ToList();
                         return;
                 }
             }
