@@ -68,7 +68,7 @@ namespace AppUsers
                     need = "Places";
                     break;
                 case "Месторождения":
-                    need = "Cores_places";
+                    need = "CoresPlace";
                     break;
             }
 

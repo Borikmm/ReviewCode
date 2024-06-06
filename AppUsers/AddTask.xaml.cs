@@ -39,8 +39,8 @@ namespace AppUsers
                 case "Places":
                     show_places();
                     break;
-                case "Cores_places":
-                    show_cores_places();
+                case "CoresPlace":
+                    show_CoresPlace();
                     break;
             }
         }
@@ -60,7 +60,7 @@ namespace AppUsers
             two.Text = "Пропускная способность";
         }
 
-        private void show_cores_places()
+        private void show_CoresPlace()
         {
             one.Text = "Код пункта";
             two.Text = "Код ископаемого";
@@ -74,7 +74,6 @@ namespace AppUsers
         {
             var db = new ApplicationContext();
 
-            MessageBox.Show(_table_now);
             switch (_table_now)
             {
                 case "Cores":
@@ -96,10 +95,10 @@ namespace AppUsers
                     windowAuth2.Show();
                     this.Close();
                     break;
-                case "Cores_places":
+                case "CoresPlace":
                     // string finish, string start, int roleid, int tableid, int number
-                    Core_place user2 = new Core_place(Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), Convert.ToInt16(fife_input.Text), Convert.ToInt16(six_input.Text), three_input.Text, for_input.Text);
-                    db.Cores_places.Add(user2);
+                    CorePlace user2 = new CorePlace(Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), Convert.ToInt16(fife_input.Text), Convert.ToInt16(six_input.Text), three_input.Text, for_input.Text);
+                    db.CoresPlace.Add(user2);
                     db.SaveChanges();
 
                     PersonWindow windowAuth3 = new PersonWindow(PersonWindow._user_now);

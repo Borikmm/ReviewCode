@@ -43,16 +43,10 @@ namespace AppUsers
                 case "Places":
                     show_places();
                     break;
-                case "Cores_places":
-                    show_cores_places();
+                case "CoresPlace":
+                    show_CoresPlace();
                     break;
             }
-
-
-
-            var need1 = get_t(table_now);
-            need1.Insert(0, "all");
-            ComboGroups.ItemsSource = need1;
 
             update_workflow("all");
             //DGridUsers.ItemsSource = db.Workflows.ToList();
@@ -71,10 +65,10 @@ namespace AppUsers
             DGridPlaces.ItemsSource = db.Places.ToList();
         }
 
-        private void show_cores_places()
+        private void show_CoresPlace()
         {
             DGridCore_place.Visibility = Visibility.Visible;
-            DGridCore_place.ItemsSource = db.Cores_places.ToList();
+            //DGridCore_place.ItemsSource = db.CoresPlace.ToList();
         }
 
 
@@ -99,8 +93,8 @@ namespace AppUsers
                         }
                         break;
                     }
-                case "Cores_places":
-                    foreach (var t in db.Cores_places.ToList())
+                case "CoresPlace":
+                    foreach (var t in db.CoresPlace.ToList())
                     {
                         need.Add(t.Close);
                     }
@@ -124,8 +118,8 @@ namespace AppUsers
                     DGridPlaces.ItemsSource = db.Places.ToList();
                     return;
 
-                case "Cores_places":
-                    DGridCore_place.ItemsSource = db.Cores_places.ToList();
+                case "CoresPlace":
+                    DGridCore_place.ItemsSource = db.CoresPlace.ToList();
                     return;
             }
         }
@@ -149,6 +143,9 @@ namespace AppUsers
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
 
+            PersonWindow windowAuth = new PersonWindow(PersonWindow._user_now);
+            windowAuth.Show();
+            this.Close();
         }
 
         private void ComboType_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -200,74 +197,170 @@ namespace AppUsers
                         DGridPlaces.ItemsSource = db.Places.ToList();
                         return;
 
-                    case "Cores_places":
-                        Core_place need2 = DGridCores.SelectedItem as Core_place;
+                    case "CoresPlace":
+                        CorePlace need2 = DGridCores.SelectedItem as CorePlace;
                         db = new ApplicationContext();
 
-                        var ord2 = db.Cores_places.Where(c => c.id == need2.id).FirstOrDefault();
-                        db.Cores_places.Remove(ord2);
+                        var ord2 = db.CoresPlace.Where(c => c.id == need2.id).FirstOrDefault();
+                        db.CoresPlace.Remove(ord2);
                         db.SaveChanges();
 
-                        DGridCore_place.ItemsSource = db.Cores_places.ToList();
+                        DGridCore_place.ItemsSource = db.CoresPlace.ToList();
                         return;
                 }
             }
             catch { }
         }
 
-        private void DataGridCell_Selected(object sender, RoutedEventArgs e)
+    
+
+        private void DGridRoles_CellEditEnding(object sender, DataGridCellEditEndingEventArgs e)
         {
-            if (e.OriginalSource.GetType() == typeof(DataGridCell))
+
+            switch (_table_now)
             {
-                // Starts the Edit on the row;
-                System.Windows.Controls.DataGrid grd = (System.Windows.Controls.DataGrid)sender;
-                grd.BeginEdit(e);
-                grd.CancelEdit();
+                case "Cores":
+
+                    
+                    var editedRole = DGridCores.SelectedItem as Core; // Получаем отредактированный объект Role
+
+                    if (editedRole != null)
+                    {
+                        db = new ApplicationContext();
+                        var existingRole = db.Cores.Find(editedRole.id); // Находим редактируемую роль в базе данных
+                        if (existingRole != null)
+                        {
+
+
+                            existingRole.Name = editedRole.Name; // Обновляем имя роли
+                                                                 // Другие обновления полей, если необходимо
+
+                            // Копируем другие значения из editedRole в existingRole
+                            existingRole.Price = editedRole.Price;
+                            existingRole.NumberFind = editedRole.NumberFind;
+                            db.SaveChanges(); // Сохраняем изменения в базе данных
+                        }
+                    }
+
+
+
+                    break;
+                case "Places":
+                    var editedRole1 = DGridPlaces.SelectedItem as Place; // Получаем отредактированный объект Role
+
+                    if (editedRole1 != null)
+                    {
+                        db = new ApplicationContext();
+                        var existingRole1 = db.Places.Find(editedRole1.id); // Находим редактируемую роль в базе данных
+                        if (existingRole1 != null)
+                        {
+
+
+                            existingRole1.Name = editedRole1.Name; // Обновляем имя роли
+                                                                 // Другие обновления полей, если необходимо
+
+                            // Копируем другие значения из editedRole в existingRole
+                            existingRole1.BandWidth = editedRole1.BandWidth;
+
+                            db.SaveChanges(); // Сохраняем изменения в базе данных
+                        }
+                    }
+
+
+                    break;
+
+                case "CoresPlace":
+                    var editedRole2 = DGridCore_place.SelectedItem as CorePlace; // Получаем отредактированный объект Role
+
+                    if (editedRole2 != null)
+                    {
+                        db = new ApplicationContext();
+                        var existingRole2 = db.CoresPlace.Find(editedRole2.id); // Находим редактируемую роль в базе данных
+                        if (existingRole2 != null)
+                        {
+
+
+                            existingRole2.Storage = editedRole2.Storage; // Обновляем имя роли
+                                                                 // Другие обновления полей, если необходимо
+
+                            // Копируем другие значения из editedRole в existingRole
+                            existingRole2.Open = editedRole2.Open;
+                            existingRole2.Close = editedRole2.Close;
+                            existingRole2.OurselfPrice = editedRole2.OurselfPrice;
+                            existingRole2.CoreId = editedRole2.CoreId;
+                            existingRole2.PlaceId = editedRole2.PlaceId;
+
+                            db.SaveChanges(); // Сохраняем изменения в базе данных
+                        }
+                    }
+
+                    break;
             }
         }
 
-        private void DataGridCell_Selected2(object sender, RoutedEventArgs e)
+        private void TxtSearch_TextChanged(object sender, RoutedEventArgs e)
         {
-            try
+
+            switch (_table_now)
             {
-                switch (_table_now)
-                {
-                    case "Cores":
+                case "Cores":
 
+                    db = new ApplicationContext();
+                    if (txtSearch.Text != "Поиск по названию...")
+                    {
 
-                        Core need = DGridCores.SelectedItem as Core;
-                        db = new ApplicationContext();
+                        string searchText = txtSearch.Text.ToLower();
 
-                        var ord = db.Cores.Where(c => c.id == need.id).FirstOrDefault();
-                        ord = need;
-                        db.SaveChanges();
+                        DGridCores.ItemsSource = db.Cores.ToList().Where(role => role.Name.ToLower().Contains(searchText)).ToList();
+                    }
+                    else
+                    {
+                        DGridCores.ItemsSource = db.Cores.ToList();
+                    }
+                    return;
+                case "Places":
+                    db = new ApplicationContext();
+                    if (txtSearch.Text != "Поиск по названию...")
+                    {
 
+                        string searchText = txtSearch.Text.ToLower();
 
+                        DGridPlaces.ItemsSource = db.Places.ToList().Where(role => role.Name.ToLower().Contains(searchText)).ToList();
+                    }
+                    else
+                    {
+                        DGridPlaces.ItemsSource = db.Places.ToList();
+                    }
+                    return;
 
-                        return;
-                    case "Places":
-                        Place need1 = DGridPlaces.SelectedItem as Place;
-                        db = new ApplicationContext();
+                case "CoresPlace":
+                    db = new ApplicationContext();
+                    if (txtSearch.Text != "Поиск по названию...")
+                    {
 
-                        var ord1 = db.Places.Where(c => c.id == need1.id).FirstOrDefault();
-                        ord1 = need1;
-                        db.SaveChanges();
+                        string searchText = txtSearch.Text.ToLower();
 
-
-                        return;
-
-                    case "Cores_places":
-                        Core_place need2 = DGridCores.SelectedItem as Core_place;
-                        db = new ApplicationContext();
-
-                        var ord2 = db.Cores_places.Where(c => c.id == need2.id).FirstOrDefault();
-                        ord2 = need2;
-                        db.SaveChanges();
-
-                        return;
-                }
+                        DGridCore_place.ItemsSource = db.CoresPlace.ToList().Where(role => role.Close.ToLower().Contains(searchText)).ToList();
+                    }
+                    else
+                    {
+                        DGridCore_place.ItemsSource = db.CoresPlace.ToList();
+                    }
+                    return;
             }
-            catch { }
+
+
+
+        }
+
+        private void LostFocus(object sender, RoutedEventArgs e)
+        {
+            txtSearch.Text = "Поиск по названию...";
+        }
+
+        private void SetFocus(object sender, RoutedEventArgs e)
+        {
+            txtSearch.Text = "";
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace AppUsers
 {
-    public class Core_place
+    public class CorePlace
     {
         public int id { get; set; }
         private int placeid;
@@ -54,9 +54,9 @@ namespace AppUsers
         }
 
 
-        public Core_place() { }
+        public CorePlace() { }
 
-        public Core_place(int core_id, int place_id, int stor, int price, string open, string close)
+        public CorePlace(int core_id, int place_id, int stor, int price, string open, string close)
         {
             this.coreid = core_id;
             this.placeid = place_id;

@@ -11,7 +11,7 @@ namespace AppUsers
     {
         public DbSet<Core> Cores { get; set; }
         public DbSet<Place> Places { get; set; }
-        public DbSet<Core_place> Cores_places { get; set; }
+        public DbSet<CorePlace> CoresPlace { get; set; }
         public DbSet<User> Users { get; set; }
 
         public ApplicationContext() : base("DefaultConnection") { }
