@@ -22,17 +22,11 @@ namespace AppUsers
     public partial class MainWindow : Window
     {
         ApplicationContext db;
-        List<string> logins;
+
         public MainWindow()
         {
             InitializeComponent();
             db = new ApplicationContext();
-            List<User> users = db.Users.ToList();
-            logins = new List<string>() { };
-            foreach (User user in users)
-            {
-                logins.Add(user.Name);
-            }
         }
 
         private void Button_Reg_Click(object sender, RoutedEventArgs e)

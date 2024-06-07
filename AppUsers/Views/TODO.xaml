@@ -78,7 +78,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Content="Add_workflow" x:Name="ChangeRootBtn" Click="Add_workflow" Grid.Row="2" Margin="129,27,555,21"></Button>
+        <Button Content="Add item" x:Name="ChangeRootBtn" Click="AddItem" Grid.Row="2" Margin="129,27,555,21"></Button>
         <Button Content="Exit" x:Name="ExitBtn" Click="ExitBtn_Click" Grid.Row="2" Margin="536,27,134,21"/>
 
     </Grid>

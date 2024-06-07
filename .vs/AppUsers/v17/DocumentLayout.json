@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\service\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\service\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\dbmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\dbmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\dbmodels\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\dbmodels\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\authwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\authwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\core_place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +71,16 @@
       "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\authwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\authwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\authwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\authwindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\addtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\appusers\\authwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\authwindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|c:\\all2\\education\\college\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\practica_ev_03\\finish\\reviewcode\\appusers\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F35A9AFE-2E88-41FD-8279-D63FD15FB92A}|AppUsers\\AppUsers.csproj|solutionrelative:appusers\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,19 +90,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "PersonWindow.xaml",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\PersonWindow.xaml",
-              "RelativeDocumentMoniker": "AppUsers\\PersonWindow.xaml",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\PersonWindow.xaml",
-              "RelativeToolTip": "AppUsers\\PersonWindow.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\PersonWindow.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\PersonWindow.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\PersonWindow.xaml",
+              "RelativeToolTip": "AppUsers\\Views\\PersonWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-08T08:50:35.252Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,19 +113,19 @@
               "RelativeDocumentMoniker": "AppUsers\\PersonWindow.xaml.cs",
               "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\PersonWindow.xaml.cs",
               "RelativeToolTip": "AppUsers\\PersonWindow.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAACgAAAAQAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwEEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T08:50:35.256Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "TODO.xaml",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\TODO.xaml",
-              "RelativeDocumentMoniker": "AppUsers\\TODO.xaml",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\TODO.xaml",
-              "RelativeToolTip": "AppUsers\\TODO.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\TODO.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\TODO.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\TODO.xaml",
+              "RelativeToolTip": "AppUsers\\Views\\TODO.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-11T01:26:20.097Z",
               "IsPinned": true,
@@ -112,16 +133,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "TODO.xaml.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\TODO.xaml.cs",
-              "RelativeDocumentMoniker": "AppUsers\\TODO.xaml.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\TODO.xaml.cs",
-              "RelativeToolTip": "AppUsers\\TODO.xaml.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAAAAAEUAAAAMAAAA",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\TODO.xaml.cs",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\TODO.xaml.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\TODO.xaml.cs",
+              "RelativeToolTip": "AppUsers\\Views\\TODO.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T01:28:29.823Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\App.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\App.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\App.xaml",
+              "RelativeToolTip": "AppUsers\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-07T02:12:45.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\App.config",
+              "RelativeDocumentMoniker": "AppUsers\\App.config",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\App.config",
+              "RelativeToolTip": "AppUsers\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-07T02:12:09.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "AppUsers\\Properties\\Settings.settings",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\Settings.settings",
+              "RelativeToolTip": "AppUsers\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-06-07T02:12:01.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "AppUsers\\Properties\\Resources.resx",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\Resources.resx",
+              "RelativeToolTip": "AppUsers\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-07T02:12:00.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AppUsers\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "AppUsers\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:11:59.107Z",
               "EditorCaption": ""
             },
             {
@@ -130,19 +213,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Core_place.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core_place.cs",
-              "RelativeDocumentMoniker": "AppUsers\\Core_place.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core_place.cs",
-              "RelativeToolTip": "AppUsers\\Core_place.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwBAAAAAcAAAA",
+              "DocumentIndex": 11,
+              "Title": "AuthWindows.xaml.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml.cs",
+              "RelativeDocumentMoniker": "AppUsers\\AuthWindows.xaml.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml.cs",
+              "RelativeToolTip": "AppUsers\\AuthWindows.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowC0AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:25:04.244Z"
+              "WhenOpened": "2024-05-11T01:52:49.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\DBModels\\User.cs",
+              "RelativeDocumentMoniker": "AppUsers\\DBModels\\User.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\DBModels\\User.cs",
+              "RelativeToolTip": "AppUsers\\DBModels\\User.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T02:06:21.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Service\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "AppUsers\\Service\\ApplicationContext.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Service\\ApplicationContext.cs",
+              "RelativeToolTip": "AppUsers\\Service\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:46:54.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AppUsers\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AppUsers\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAArwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T01:33:23.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\DBModels\\Core.cs",
+              "RelativeDocumentMoniker": "AppUsers\\DBModels\\Core.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\DBModels\\Core.cs",
+              "RelativeToolTip": "AppUsers\\DBModels\\Core.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T11:23:02.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AddTask.xaml.cs",
               "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AddTask.xaml.cs",
               "RelativeDocumentMoniker": "AppUsers\\AddTask.xaml.cs",
@@ -154,31 +288,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\User.cs",
-              "RelativeDocumentMoniker": "AppUsers\\User.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\User.cs",
-              "RelativeToolTip": "AppUsers\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
+              "DocumentIndex": 14,
+              "Title": "Core_place.cs",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core_place.cs",
+              "RelativeDocumentMoniker": "AppUsers\\Core_place.cs",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core_place.cs",
+              "RelativeToolTip": "AppUsers\\Core_place.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwBAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T02:06:21.364Z"
+              "WhenOpened": "2024-06-03T11:25:04.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "AppUsers\\ApplicationContext.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\ApplicationContext.cs",
-              "RelativeToolTip": "AppUsers\\ApplicationContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T08:46:54.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "Place.cs",
               "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Place.cs",
               "RelativeDocumentMoniker": "AppUsers\\Place.cs",
@@ -190,72 +312,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Core.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core.cs",
-              "RelativeDocumentMoniker": "AppUsers\\Core.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Core.cs",
-              "RelativeToolTip": "AppUsers\\Core.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAwAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T11:23:02.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "AddTask.xaml",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AddTask.xaml",
-              "RelativeDocumentMoniker": "AppUsers\\AddTask.xaml",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AddTask.xaml",
-              "RelativeToolTip": "AppUsers\\AddTask.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\AddTask.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\AddTask.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\AddTask.xaml",
+              "RelativeToolTip": "AppUsers\\Views\\AddTask.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T01:39:16.767Z"
+              "WhenOpened": "2024-05-11T01:39:16.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AppUsers\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml.cs",
-              "RelativeToolTip": "AppUsers\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAADgv1QAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T01:33:23.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "AppUsers\\MainWindow.xaml",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\MainWindow.xaml",
-              "RelativeToolTip": "AppUsers\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "AppUsers\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-14T08:04:40.442Z"
+              "WhenOpened": "2024-05-14T08:04:40.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "AuthWindows.xaml",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml",
-              "RelativeDocumentMoniker": "AppUsers\\AuthWindows.xaml",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml",
-              "RelativeToolTip": "AppUsers\\AuthWindows.xaml",
+              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\AuthWindows.xaml",
+              "RelativeDocumentMoniker": "AppUsers\\Views\\AuthWindows.xaml",
+              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\Views\\AuthWindows.xaml",
+              "RelativeToolTip": "AppUsers\\Views\\AuthWindows.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T02:21:25.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthWindows.xaml.cs",
-              "DocumentMoniker": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml.cs",
-              "RelativeDocumentMoniker": "AppUsers\\AuthWindows.xaml.cs",
-              "ToolTip": "C:\\All2\\Education\\College\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0438\\Practica_EV_03\\finish\\ReviewCode\\AppUsers\\AuthWindows.xaml.cs",
-              "RelativeToolTip": "AppUsers\\AuthWindows.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T01:52:49.706Z"
+              "WhenOpened": "2024-05-11T02:21:25.782Z",
+              "EditorCaption": ""
             }
           ]
         }

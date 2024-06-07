@@ -39,14 +39,14 @@ namespace AppUsers
                 case "Places":
                     show_places();
                     break;
-                case "CoresPlace":
-                    show_CoresPlace();
+                case "CorePlaces":
+                    show_CorePlaces();
                     break;
             }
         }
 
 
-
+        // Показ полей в зависимости от вида таблицы
         private void show_cores()
         {
             one.Text = "Название руды";
@@ -60,7 +60,7 @@ namespace AppUsers
             two.Text = "Пропускная способность";
         }
 
-        private void show_CoresPlace()
+        private void show_CorePlaces()
         {
             one.Text = "Код пункта";
             two.Text = "Код ископаемого";
@@ -86,7 +86,6 @@ namespace AppUsers
                     this.Close();
                     break;
                 case "Places":
-                    MessageBox.Show("wf");
                     Place user1 = new Place(one_input.Text, two_input.Text);
                     db.Places.Add(user1);
                     db.SaveChanges();
@@ -95,10 +94,9 @@ namespace AppUsers
                     windowAuth2.Show();
                     this.Close();
                     break;
-                case "CoresPlace":
-                    // string finish, string start, int roleid, int tableid, int number
+                case "CorePlaces":
                     CorePlace user2 = new CorePlace(Convert.ToInt16(one_input.Text), Convert.ToInt16(two_input.Text), Convert.ToInt16(fife_input.Text), Convert.ToInt16(six_input.Text), three_input.Text, for_input.Text);
-                    db.CoresPlace.Add(user2);
+                    db.CorePlaces.Add(user2);
                     db.SaveChanges();
 
                     PersonWindow windowAuth3 = new PersonWindow(PersonWindow._user_now);

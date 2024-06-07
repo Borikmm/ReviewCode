@@ -34,15 +34,6 @@ namespace AppUsers
 
             CurrentLoginTextBox.Text += user_now.Name;
             _user_now = user_now;
-
-            if (user_now.Role == "s")
-            {
-                
-            }
-            else
-            {
-
-            }
         }
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
@@ -52,27 +43,24 @@ namespace AppUsers
             this.Close();
         }
 
-        
-
-     
-
-        private void WorkflowBtn(object sender, RoutedEventArgs e)
+        private void Open_table(object sender, RoutedEventArgs e)
         {
-            string need = "";
+            string a_way = "";
+            // Переход в окно в зависимости от вида таблицы
             switch (((Button)sender).Content)
             {
                 case "Пункты":
-                    need = "Cores";
+                    a_way = "Places";
                     break;
                 case "Ископаемые":
-                    need = "Places";
+                    a_way = "Cores";
                     break;
                 case "Месторождения":
-                    need = "CoresPlace";
+                    a_way = "CorePlaces";
                     break;
             }
 
-            TODO windowAuth = new TODO(need);
+            TODO windowAuth = new TODO(a_way);
             windowAuth.Show();
             this.Close();
         }

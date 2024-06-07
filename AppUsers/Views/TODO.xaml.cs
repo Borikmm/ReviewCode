@@ -43,13 +43,11 @@ namespace AppUsers
                 case "Places":
                     show_places();
                     break;
-                case "CoresPlace":
-                    show_CoresPlace();
+                case "CorePlaces":
+                    show_CorePlaces();
                     break;
             }
-
-            update_workflow("all");
-            //DGridUsers.ItemsSource = db.Workflows.ToList();
+            update_table("all");
         }
 
 
@@ -65,48 +63,13 @@ namespace AppUsers
             DGridPlaces.ItemsSource = db.Places.ToList();
         }
 
-        private void show_CoresPlace()
+        private void show_CorePlaces()
         {
             DGridCore_place.Visibility = Visibility.Visible;
-            //DGridCore_place.ItemsSource = db.CoresPlace.ToList();
+            //DGridCore_place.ItemsSource = db.CorePlaces.ToList();
         }
 
-
-        public static List<string> get_t(string name)
-        {
-            var db = new ApplicationContext();
-            var need = new List<string>();
-
-            switch (name)
-            {
-                case "Cores":
-                    foreach (var t in db.Cores.ToList())
-                    {
-                        need.Add(t.Name);
-                    }
-                    break;
-                case "Places":
-                    {
-                        foreach (var t in db.Places.ToList())
-                        {
-                            need.Add(t.Name);
-                        }
-                        break;
-                    }
-                case "CoresPlace":
-                    foreach (var t in db.CoresPlace.ToList())
-                    {
-                        need.Add(t.Close);
-                    }
-                    break;
-            }
-
- 
-
-            return need;
-        }
-
-        private void update_workflow(string name_table)
+        private void update_table(string name_table)
         {
             switch (name_table)
             {
@@ -118,27 +81,20 @@ namespace AppUsers
                     DGridPlaces.ItemsSource = db.Places.ToList();
                     return;
 
-                case "CoresPlace":
-                    DGridCore_place.ItemsSource = db.CoresPlace.ToList();
+                case "CorePlaces":
+                    DGridCore_place.ItemsSource = db.CorePlaces.ToList();
                     return;
             }
         }
 
       
 
-        private void AddTask(object sender, RoutedEventArgs e)
+        private void AddItem(object sender, RoutedEventArgs e)
         {
             AddTask windowAuth = new AddTask(_table_now);
             windowAuth.Show();
             this.Close();
         }
-
-
-        private void FindItem(string name)
-        {
-
-        }
-    
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -146,17 +102,6 @@ namespace AppUsers
             PersonWindow windowAuth = new PersonWindow(PersonWindow._user_now);
             windowAuth.Show();
             this.Close();
-        }
-
-        private void ComboType_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            //update_workflow(ComboGroups.SelectedValue.ToString());
-            //DGridUsers.Items.Refresh();
-        }
-
-        private void AddSubjects(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void Add_workflow(object sender, RoutedEventArgs e)
@@ -197,15 +142,15 @@ namespace AppUsers
                         DGridPlaces.ItemsSource = db.Places.ToList();
                         return;
 
-                    case "CoresPlace":
+                    case "CorePlaces":
                         CorePlace need2 = DGridCores.SelectedItem as CorePlace;
                         db = new ApplicationContext();
 
-                        var ord2 = db.CoresPlace.Where(c => c.id == need2.id).FirstOrDefault();
-                        db.CoresPlace.Remove(ord2);
+                        var ord2 = db.CorePlaces.Where(c => c.id == need2.id).FirstOrDefault();
+                        db.CorePlaces.Remove(ord2);
                         db.SaveChanges();
 
-                        DGridCore_place.ItemsSource = db.CoresPlace.ToList();
+                        DGridCore_place.ItemsSource = db.CorePlaces.ToList();
                         return;
                 }
             }
@@ -269,13 +214,13 @@ namespace AppUsers
 
                     break;
 
-                case "CoresPlace":
+                case "CorePlaces":
                     var editedRole2 = DGridCore_place.SelectedItem as CorePlace; // Получаем отредактированный объект Role
 
                     if (editedRole2 != null)
                     {
                         db = new ApplicationContext();
-                        var existingRole2 = db.CoresPlace.Find(editedRole2.id); // Находим редактируемую роль в базе данных
+                        var existingRole2 = db.CorePlaces.Find(editedRole2.id); // Находим редактируемую роль в базе данных
                         if (existingRole2 != null)
                         {
 
@@ -297,7 +242,7 @@ namespace AppUsers
                     break;
             }
         }
-
+        // Метод который вызывается в зависимости от текста внутри поля
         private void TxtSearch_TextChanged(object sender, RoutedEventArgs e)
         {
 
@@ -333,18 +278,18 @@ namespace AppUsers
                     }
                     return;
 
-                case "CoresPlace":
+                case "CorePlaces":
                     db = new ApplicationContext();
                     if (txtSearch.Text != "Поиск по названию...")
                     {
 
                         string searchText = txtSearch.Text.ToLower();
 
-                        DGridCore_place.ItemsSource = db.CoresPlace.ToList().Where(role => role.Close.ToLower().Contains(searchText)).ToList();
+                        DGridCore_place.ItemsSource = db.CorePlaces.ToList().Where(role => role.Close.ToLower().Contains(searchText)).ToList();
                     }
                     else
                     {
-                        DGridCore_place.ItemsSource = db.CoresPlace.ToList();
+                        DGridCore_place.ItemsSource = db.CorePlaces.ToList();
                     }
                     return;
             }

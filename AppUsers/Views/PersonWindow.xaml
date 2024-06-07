@@ -19,9 +19,9 @@
 
                 <Grid>
 
-                    <Button Content="Пункты" Click="WorkflowBtn" VerticalAlignment="Top" Margin="-15,70,385,0" Width="400" Background="#FF83C736"></Button>
-                    <Button Content="Ископаемые" Click="WorkflowBtn"  Margin="385,70,-15,43" Width="400" Background="#FF83C736"></Button>
-                    <Button Content="Месторождения" Click="WorkflowBtn" VerticalAlignment="Top" Margin="185,118,185,0" Width="400" Background="#FF83C736"></Button>
+                    <Button Content="Пункты" Click="Open_table" VerticalAlignment="Top" Margin="-15,70,385,0" Width="400" Background="#FF83C736"></Button>
+                    <Button Content="Ископаемые" Click="Open_table"  Margin="385,70,-15,43" Width="400" Background="#FF83C736"></Button>
+                    <Button Content="Месторождения" Click="Open_table" VerticalAlignment="Top" Margin="185,118,185,0" Width="400" Background="#FF83C736"></Button>
 
 
                     <StackPanel x:Name="Admin" Visibility="Hidden" Margin="0 70 0 0"/>
